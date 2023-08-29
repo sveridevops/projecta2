@@ -1,0 +1,34 @@
+#Installation and verification of Git
+sudo apt update
+sudo apt install git
+git --version
+
+#Initialization
+
+Create the Project Folder
+change your working directory to project folder
+
+git init
+git config --global user.name "Author Name"
+git config --global user.email "Author email"
+
+
+created and modified the project files
+
+git status
+git add .
+git commit -m "informative message"
+git log
+
+GitHUB
+
+Created the Repo
+Created the token Setting -> Developer Setting->Generate Classic token->Generate Classic token->Select all the option with required validity->Hit Generate Token
+Copy the token in safe place use for pushing the local repo to remote repo
+
+
+git remote add projecta2  repoURL
+git push projecta2
+
+
+
